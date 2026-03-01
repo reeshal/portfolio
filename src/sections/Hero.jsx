@@ -114,14 +114,6 @@ export default function Hero() {
 
           {/* CTAs */}
           <motion.div variants={itemVariants} style={{ display: "flex", alignItems: "center", gap: "16px", flexWrap: "wrap" }}>
-            <a href={MAILTO}
-              style={{ display: "inline-flex", alignItems: "center", gap: "10px", padding: "13px 30px", background: "linear-gradient(135deg, var(--accent-primary), var(--accent-secondary))", color: "#fff", borderRadius: "var(--radius-sm)", fontFamily: "var(--font-body)", fontWeight: 600, fontSize: "0.9rem", boxShadow: "0 6px 20px rgba(91,106,240,0.3)", minHeight: "48px", transition: "transform var(--transition), box-shadow var(--transition)" }}
-              onMouseEnter={(e) => { e.currentTarget.style.transform = "translateY(-2px)"; e.currentTarget.style.boxShadow = "0 10px 28px rgba(91,106,240,0.38)"; }}
-              onMouseLeave={(e) => { e.currentTarget.style.transform = "translateY(0)"; e.currentTarget.style.boxShadow = "0 6px 20px rgba(91,106,240,0.3)"; }}
-            >
-              {ui.nav.hireMe}
-            </a>
-
             <a href="#experience"
               style={{ display: "inline-flex", alignItems: "center", padding: "13px 26px", background: "var(--bg-card)", border: "1px solid var(--border-card)", color: "var(--text-primary)", borderRadius: "var(--radius-sm)", fontFamily: "var(--font-body)", fontWeight: 500, fontSize: "0.9rem", backdropFilter: "blur(10px)", minHeight: "48px", boxShadow: "var(--shadow-sm)", transition: "var(--transition)" }}
               onMouseEnter={(e) => { e.currentTarget.style.borderColor = "var(--border-accent)"; e.currentTarget.style.color = "var(--accent-primary)"; }}

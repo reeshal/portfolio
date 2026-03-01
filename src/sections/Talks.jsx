@@ -9,21 +9,21 @@ const cardVariants = { hidden: { opacity: 0, y: 24 }, visible: { opacity: 1, y: 
 function TalkCard({ talk, index }) {
   return (
     <motion.div variants={cardVariants}
-      whileHover={{ y: -6, boxShadow: "0 20px 48px rgba(91,106,240,0.14)", borderColor: "var(--border-accent)" }}
-      style={{ background: "var(--bg-card)", backdropFilter: "var(--blur-glass)", WebkitBackdropFilter: "var(--blur-glass)", border: "1px solid var(--border-card)", borderRadius: "var(--radius-lg)", padding: "28px", display: "flex", flexDirection: "column", gap: "16px", transition: "var(--transition)", position: "relative", overflow: "hidden", boxShadow: "var(--shadow-card)" }}
+      whileHover={{ y: -5, borderColor: "var(--border-accent)" }}
+      style={{ background: "var(--bg-card)", border: "1px solid var(--border-subtle)", borderRadius: "var(--radius-lg)", padding: "28px", display: "flex", flexDirection: "column", gap: "16px", transition: "var(--transition)", position: "relative", overflow: "hidden" }}
     >
       {/* Number watermark */}
-      <span style={{ position: "absolute", top: "12px", right: "18px", fontFamily: "var(--font-display)", fontSize: "4.5rem", fontWeight: 700, color: "rgba(91,106,240,0.06)", lineHeight: 1, userSelect: "none", pointerEvents: "none" }}>
+      <span style={{ position: "absolute", top: "16px", right: "20px", fontFamily: "var(--font-display)", fontSize: "4rem", fontWeight: 900, color: "rgba(232,162,58,0.05)", lineHeight: 1, userSelect: "none", pointerEvents: "none" }}>
         {String(index + 1).padStart(2, "0")}
       </span>
       <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
         <span style={{ fontSize: "2rem", lineHeight: 1 }}>{talk.icon}</span>
-        <span style={{ display: "inline-flex", alignItems: "center", gap: "5px", fontFamily: "var(--font-mono)", fontSize: "0.63rem", letterSpacing: "0.08em", color: "var(--text-muted)", padding: "4px 10px", border: "1px solid var(--border-card)", borderRadius: "100px", background: "rgba(255,255,255,0.5)" }}>
-          <Users size={9} />{talk.venue}
+        <span style={{ display: "inline-flex", alignItems: "center", gap: "6px", fontFamily: "var(--font-mono)", fontSize: "0.65rem", letterSpacing: "0.1em", color: "var(--text-muted)", padding: "4px 10px", border: "1px solid var(--border-subtle)", borderRadius: "100px" }}>
+          <Users size={10} />{talk.venue}
         </span>
       </div>
-      <h3 style={{ fontFamily: "var(--font-display)", fontSize: "clamp(1.1rem,3vw,1.3rem)", fontWeight: 600, color: "var(--text-primary)", lineHeight: 1.3 }}>{talk.title}</h3>
-      <p style={{ fontSize: "0.87rem", color: "var(--text-secondary)", lineHeight: 1.78, flex: 1, fontWeight: 300 }}>{talk.description}</p>
+      <h3 style={{ fontFamily: "var(--font-display)", fontSize: "clamp(1.1rem,3vw,1.3rem)", fontWeight: 700, color: "var(--text-primary)", lineHeight: 1.3 }}>{talk.title}</h3>
+      <p style={{ fontSize: "0.88rem", color: "var(--text-secondary)", lineHeight: 1.78, flex: 1 }}>{talk.description}</p>
       <div style={{ display: "flex", flexWrap: "wrap", gap: "6px" }}>
         {talk.tags.map((tag) => <span key={tag} className="tag">{tag}</span>)}
       </div>
