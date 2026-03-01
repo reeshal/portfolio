@@ -1,7 +1,7 @@
 export const portfolioDataFr = {
   name: "Reeshal",
   fullName: "Reeshal Rittoo",
-  role: "Ingénieur Logiciel Senior",
+  role: "Ingénieur Logiciel (Senior)",
   tagline: "Développeur Full-Stack · .NET · Angular · Cloud & DevOps",
   location: "Maurice 🌊",
   bio: "Développeur Full-Stack spécialisé en .NET et Angular. À l'aise avec la conteneurisation via Docker, les langages de requête PostgreSQL, NoSQL (Firebase) et MS SQL, ainsi qu'avec les pipelines CI/CD et les logiciels de messagerie comme RabbitMQ.",
@@ -35,7 +35,7 @@ export const portfolioDataFr = {
       role: "Ingénieur Logiciel Senior",
       period: "Août 2024 — Présent",
       description:
-        "Pilotage de la modernisation du système Leclerc Drive — migration de .NET Framework vers .NET 8, conteneurisation avec Docker et déploiement sur OpenShift/Kubernetes. Architecture des microservices Panier et RecetteCuisine avec un focus sur l'observabilité et la performance.",
+        "Modernisation du système Leclerc Drive — migration de .NET Framework vers .NET 8, conteneurisation avec Docker et déploiement sur OpenShift. Architecture des microservices avec un focus sur l'observabilité et la performance.",
       tags: [".NET 8", "Docker", "OpenShift", "PostgreSQL", "RabbitMQ", "Angular"],
     },
     {
@@ -109,12 +109,14 @@ export const portfolioDataFr = {
     },
     {
       title: "Système de Gestion pour l'ONG WeRecycle",
+      association: "Freelance",
       description:
         "Site web permettant à l'ONG WeRecycle de gérer ses opérations de collecte de déchets de bout en bout.",
       tags: ["Full-Stack", "Développement Web", "ONG"],
     },
     {
       title: "Système de Gestion pour Papa Discount Ltd",
+      association: "Freelance",
       description:
         "Application web et mobile permettant aux parties prenantes de gérer leurs magasins et produits en promotion sur plusieurs sites.",
       tags: ["Web", "Mobile", "Full-Stack"],
@@ -128,6 +130,7 @@ export const portfolioDataFr = {
     },
     {
       title: "Site Web pour l'ONG Animal Saviours",
+      association: "Freelance",
       description:
         "Conception et développement complet (frontend et backend) du site web de l'ONG Animal Saviours.",
       tags: ["Full-Stack", "ONG", "Développement Web"],
@@ -207,7 +210,7 @@ export const portfolioDataFr = {
     },
     talks: {
       label: "Partage de Connaissances",
-      title: "Présentations Publiques",
+      title: "Présentations",
       subtitle: "Présentations internes données chez Infomil — vulgarisation d'outils et technologies pour l'équipe.",
       moreComing: "D'autres présentations à venir",
       venue: "Présentation Interne Infomil",

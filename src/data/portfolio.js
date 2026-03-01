@@ -35,7 +35,7 @@ export const portfolioData = {
       role: "Senior Software Engineer",
       period: "Aug 2024 — Present",
       description:
-        "Leading backend modernisation efforts on the Leclerc Drive system — migrating legacy .NET Framework services to .NET 8, containerising with Docker, and deploying on OpenShift/Kubernetes. Architecting microservices including the Panier (cart) and RecetteCuisine (recipe) systems with a focus on observability and performance.",
+        "Backend modernisation efforts on the Leclerc Drive system — migrating legacy .NET Framework services to .NET 8, containerising with Docker, and deploying on OpenShift. Architecting microservices systems with a focus on observability and performance.",
       tags: [".NET 8", "Docker", "OpenShift", "PostgreSQL", "RabbitMQ", "Angular"],
     },
     {
@@ -109,12 +109,14 @@ export const portfolioData = {
     },
     {
       title: "Management System for WeRecycle NGO",
+      association: "Freelance",
       description:
         "A website to help the NGO WeRecycle manage their waste collection operations end-to-end.",
       tags: ["Full-Stack", "Web Development", "NGO"],
     },
     {
       title: "Management System for Papa Discount Ltd",
+      association: "Freelance",
       description:
         "A web and mobile app allowing stakeholders to manage stores and products on offer across multiple locations.",
       tags: ["Web", "Mobile", "Full-Stack"],
@@ -128,44 +130,10 @@ export const portfolioData = {
     },
     {
       title: "Website for Animal Saviours NGO",
+      association: "Freelance",
       description:
         "Designed and developed a full frontend and backend website for the Animal Saviours NGO.",
       tags: ["Full-Stack", "NGO", "Web Development"],
-    },
-  ],
-
-  blog: [
-    {
-      title: "Migrating from .NET Framework to .NET 8: Lessons from the Trenches",
-      date: "Nov 2024",
-      readTime: "8 min read",
-      tags: [".NET 8", "Migration"],
-      excerpt:
-        "A deep-dive into the real-world challenges of lifting a legacy enterprise system to modern .NET — from breaking changes to significant performance wins.",
-    },
-    {
-      title: "OpenTelemetry in Production: Tracing ASP.NET Core on OpenShift",
-      date: "Sep 2024",
-      readTime: "6 min read",
-      tags: ["OpenTelemetry", "OpenShift", "Observability"],
-      excerpt:
-        "How we implemented distributed tracing with IP address enrichment and wired it up to our Kubernetes-based observability stack.",
-    },
-    {
-      title: "Docker & CI/CD: Shipping .NET APIs with Confidence",
-      date: "Jul 2024",
-      readTime: "5 min read",
-      tags: ["Docker", "CI/CD", "DevOps"],
-      excerpt:
-        "A practical walkthrough of containerising .NET services and wiring up semantic versioning in GitLab CI/CD pipelines for production deployments.",
-    },
-    {
-      title: "From React Basics to Advanced Patterns: My Meta Certification Journey",
-      date: "Feb 2026",
-      readTime: "4 min read",
-      tags: ["React", "Frontend", "Learning"],
-      excerpt:
-        "Reflections on completing both the React Basics and Advanced React certifications from Meta — what I learned and how it changed how I write components.",
     },
   ],
 };
@@ -235,16 +203,16 @@ portfolioData.ui = {
     subtitle: "From ML-powered wearables to NGO management systems — a selection of things I've shipped.",
   },
   education: {
-      label: "Academic Background",
-      title: "Education",
-    },
-    certifications: {
+    label: "Academic Background",
+    title: "Education",
+  },
+  certifications: {
     label: "Credentials",
     title: "Certifications",
   },
   talks: {
     label: "Sharing Knowledge",
-    title: "Public Talks",
+    title: "Talks",
     subtitle: "Internal presentations delivered at Infomil — breaking down tools and technologies for the wider team.",
     moreComing: "More talks in the pipeline",
     venue: "Infomil Internal Talk",
