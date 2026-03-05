@@ -70,7 +70,6 @@ export default function Navbar() {
             {navLinks.map((link) => (
               <a key={link.label} href={link.href} className={styles.navLink}>{link.label}</a>
             ))}
-            <LangToggle />
             <a href={MAILTO} className={styles.hireBtn}>{ui.nav.hireMe}</a>
           </nav>
 
