@@ -88,6 +88,12 @@ export const portfolioData = {
       date: "Feb 2026",
       credentialId: "0BDCC4QKV3K1",
     },
+    {
+      title: "Cloud Computing",
+      issuer: "Huawei",
+      date: "2019",
+      credentialId: "",
+    },
   ],
 
   projects: [
