@@ -1,0 +1,17 @@
+{
+  "name": "Reeshal Rittoo — Senior Software Engineer",
+  "short_name": "Reeshal",
+  "description": "Portfolio of Reeshal Rittoo, Senior Software Engineer based in Mauritius.",
+  "start_url": "/portfolio/",
+  "display": "standalone",
+  "background_color": "#080c14",
+  "theme_color": "#080c14",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

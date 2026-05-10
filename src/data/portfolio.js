@@ -4,22 +4,21 @@ export const portfolioData = {
   role: "Senior Software Engineer",
   tagline: "Full-stack Developer · .NET · Angular · Cloud & DevOps",
   location: "Mauritius 🌊",
-  bio: "Full-stack Developer with expertise in .NET and Angular. Well-versed in containerisation via Docker, at ease with PostgreSQL, NoSQL (Firebase) and MS SQL, comfortable with CI/CD pipelines and message-broker software such as RabbitMQ.",
+  bio: "Full-stack Developer with expertise in .NET and Angular. Well-versed in containerisation via Docker, at ease with PostgreSQL, NoSQL (Firebase) and MS SQL, comfortable with CI/CD pipelines and message-broker systems such as RabbitMQ.",
   email: "rreeshal@gmail.com",
   phone: "+230 57263859",
   github: "https://github.com",
   linkedin: "https://www.linkedin.com/in/reeshal-rittoo-2422281b3",
 
   skills: [
-    { name: ".NET / C#", category: "Backend" },
+    { name: ".NET", category: "Backend" },
     { name: "ASP.NET Core", category: "Backend" },
     { name: "Microservices & OpenTelemetry", category: "Backend" },
     { name: "Angular", category: "Frontend" },
     { name: "React", category: "Frontend" },
     { name: "Flutter", category: "Frontend" },
-    { name: "T-SQL / MS SQL", category: "Data" },
-    { name: "PostgreSQL", category: "Data" },
-    { name: "Firebase / NoSQL", category: "Data" },
+    { name: "PostgreSQL/ MS SQL", category: "Data" },
+    { name: "NoSQL", category: "Data" },
     { name: "Docker", category: "DevOps" },
     { name: "CI/CD Pipelines", category: "DevOps" },
     { name: "RabbitMQ", category: "DevOps" },
@@ -36,7 +35,7 @@ export const portfolioData = {
       period: "Aug 2024 — Present",
       description:
         "Backend modernisation efforts on the Leclerc Drive system — migrating legacy .NET Framework services to .NET 8, containerising with Docker, and deploying on OpenShift. Architecting microservices systems with a focus on observability and performance.",
-      tags: [".NET 8", "Docker", "OpenShift", "PostgreSQL", "RabbitMQ", "Angular"],
+      tags: [".NET 8", "Docker", "OpenShift", "PostgreSQL", "RabbitMQ", "Angular", "CI/CD"],
     },
     {
       company: "Infomil (Mauritius) Ltd",
@@ -183,7 +182,7 @@ portfolioData.ui = {
   skills: {
     label: "What I Work With",
     title: "Skills & Tech Stack",
-    subtitle: "From legacy system resurrection to cloud-native deployments — here's the toolkit I reach for.",
+    subtitle: "Here's the toolkit I reach for.",
     filterAll: "All",
     stats: [
       { value: "4+", label: "Years Experience" },
